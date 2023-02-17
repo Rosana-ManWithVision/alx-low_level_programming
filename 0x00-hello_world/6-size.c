@@ -8,4 +8,5 @@ int main (void)
 	int b;
 	long int c;long long intd;
 	float f;
-	printf("Size o"
+	printf("Size of a char: %lu byte(s)\n", (unsigned long) sizeof (a));
+	printf("Size of an int: %lu byte(s)
