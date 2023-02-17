@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * mmain a program that prints line
+ *A program that prints line
  * Return; 0
  */
 int main(void)
