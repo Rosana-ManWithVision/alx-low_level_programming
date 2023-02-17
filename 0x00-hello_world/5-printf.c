@@ -1,9 +1,25 @@
 #include <stdio.h>
 /**
- *A program that prints line
- * Return; 0
+ * main - A program that prints the size of various computer types
+ * Return: 0 (Success)
  */
 int main(void)
-	printf"with proper grammar, but the outcome is a piece of art,\n");
-	return (0);
+{
+char a;
+int b;
+long int c;
+long long int d;
+float f;
+
+printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(a));
+printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(b));
+printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(c));
+printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(d));
+printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
+return (0);
 }
+
+7.Intel
+
+#!/bin/bash
+gcc -S -masm=intel $CFILE
