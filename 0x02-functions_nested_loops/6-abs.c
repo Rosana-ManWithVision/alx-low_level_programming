@@ -2,15 +2,18 @@
 include "main.h"
 /**
  * _abs - compute int value
- * @n: int in questions
+ * @i: int in questions
  * Return: the integer's abs
  */
 
-int _abs(int n)
+int _abs(int i)
 {
-	if (n >= 0)
+	if (i >= 0)
 	{
-		return (n);
+		return (i);
 	}
-		return (-n);
+	else
+	{
+		return (-i);
+	}
 }
